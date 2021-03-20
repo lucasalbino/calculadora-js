@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main id="calculator">
+        <section id="display">
+            <!-- Historico -->
+            <div id="historico"></div>
+            <!-- Resultado -->
+            <div id="resultado"></div>
+
+        </section>
+        <section id="keypad">
+            <button type="button" id="acButton">AC</button>
+            <button type="button" id="cButton">&#8676;</button>
+            <button type="button" id="percent">%</button>
+            <button type="button" id="divideButton" class="operator">&divide;</button>
+
+            <button type="button" id="sevenButton">7</button>
+            <button type="button" id="eightButton">8</button>
+            <button type="button" id="nineButton">9</button>
+            <button type="button" id="multiplyButton" class="operator">&times;</button>
+
+            <button type="button" id="fourButton">4</button>
+            <button type="button" id="fiveButton">5</button>
+            <button type="button" id="sixButton">6</button>
+            <button type="button" id="subtractButton" class="operator">&minus;</button>
+
+            <button type="button" id="oneButton">1</button>
+            <button type="button" id="twoButton">2</button>
+            <button type="button" id="threeButton">3</button>
+            <button type="button" id="sumButton" class="operator">&plus;</button>
+
+            <button type="button" id="positiveNegative">&plus;/&minus;</button>
+            <button type="button" id="zeroButton">0</button>
+            <button type="button" id="dotButton">&sdot;</button>
+            <button type="button" id="resultButton" class="operator">&equals;</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
